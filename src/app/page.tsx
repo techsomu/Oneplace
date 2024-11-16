@@ -1,18 +1,30 @@
 
 import { Hero } from "@/components/hero";
-import { NavigationMenuDemo } from "@/pages/navmenu/navmenu";
-
-
+import MenuBar from "@/pages/Menubar";
+import React from "react";
 
 const Home: React.FC = () => {
+
 
   return (
     <>
       <div className="headerdiv">
-        <NavigationMenuDemo></NavigationMenuDemo>
+
       </div>
-      <Hero /></>
+      <MenuBar />
+      <Hero />
+     
+       </>
+      
+    
+     
+    
+
+    
+      
   );
 };
 
 export default Home;
+
+

@@ -1,14 +1,16 @@
-import { Button } from "@/components/ui/button";
-
+import SearchBar from "@/pages/Searchbar";
+import React from "react";
+import { Badge } from "@/components/ui/badge"
 export function Hero() {
   return (
-    <><section className="relative bg-cover bg-center py-60 px-8"
+    
+    <section className="relative bg-cover bg-center py-60 px-8"
           style={{ backgroundImage: "url('/bridge6.jpg')" }}
-      >
-      </section><section 
-      <p className="grid gap-100 p-6 md:w-[400px] lg:w-[500px] lg:grid-cols-[.75fr_1fr]" 
-      > For Rajahmundry People </p>
-          </section></>
+          
+      >  
+      <Badge/>
+<SearchBar></SearchBar>
+          </section>
 
   );
-}
+};

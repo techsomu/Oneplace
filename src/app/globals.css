@@ -88,10 +88,9 @@ body {
 }
 
 .headerdiv{
-  height: 10vh;
-  align-items: center;
+  height: 0vh;
+  align-items: flex-start;
   align-content: center;
   display: flex;
   flex-direction: column;
-  background: darkslategrey;
 }
